@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <com.u1aryz.android.colorpicker.ColorPickerView
+      android:id="@+id/color_picker"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="16dp"
+      />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:baselineAligned="true"
+      android:orientation="horizontal"
+      android:padding="16dp"
+      >
+
+    <com.u1aryz.android.colorpicker.ColorPanelView
+        android:id="@+id/old_color_panel"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_arrow_right"
+        />
+
+    <com.u1aryz.android.colorpicker.ColorPanelView
+        android:id="@+id/new_color_panel"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="#"
+        tools:ignore="HardcodedText"
+        />
+
+    <EditText
+        android:id="@+id/edit_hex"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789ABCDEFabcdef"
+        android:imeOptions="actionGo"
+        android:inputType="textNoSuggestions"
+        android:maxLength="8"
+        android:maxLines="1"
+        />
+
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="ColorPickerView">
+    <attr format="boolean|reference" name="alphaChannelVisible"/>
+    <attr format="string|reference" name="alphaChannelText"/>
+    <attr format="color|reference" name="sliderColor"/>
+    <attr format="color|reference" name="borderColor"/>
+  </declare-styleable>
+
+  <declare-styleable name="ColorPanelView">
+    <attr name="borderColor"/>
+  </declare-styleable>
+
+  <declare-styleable name="ColorPreference">
+    <attr format="boolean|reference" name="alphaSlider"/>
+  </declare-styleable>
+
+</resources>

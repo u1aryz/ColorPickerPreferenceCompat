@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="color_picker_view_min_padding">6dp</dimen>
+
+</resources>

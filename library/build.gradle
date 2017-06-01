@@ -29,5 +29,6 @@ dependencies {
   })
 
   compile 'com.android.support:appcompat-v7:25.3.1'
+  compile 'com.android.support:preference-v7:25.3.1'
   testCompile 'junit:junit:4.12'
 }
