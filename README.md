@@ -1,4 +1,5 @@
 # ColorPickerPreferenceCompat
+[ ![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ColorPickerPreferenceCompat-blue.svg?style=flat) ](https://android-arsenal.com/details/1/5873)
 [ ![API](https://img.shields.io/badge/API-9%2B-blue.svg?style=flat) ](https://android-arsenal.com/api?level=9)
 [ ![Download](https://api.bintray.com/packages/u1aryz/maven/colorpicker-preference-compat/images/download.svg?version=0.1.0) ](https://bintray.com/u1aryz/maven/colorpicker-preference-compat/0.1.0/link)
 [ ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) ](https://opensource.org/licenses/Apache-2.0)
